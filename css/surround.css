@@ -1,0 +1,23 @@
+:root {
+    --primary: #9a4aff;
+    --secondary: #fd545a;
+    --link: var(--primary);
+    --link-hover: #8524ff;
+    --header-bg: #231f20;
+    --footer-bg: #dfe3e5;
+    --body-font: "Spartan";
+    --heading-font: "Bebas Neue";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, input, select, textarea, button {
+    font-family: var(--heading-font);
+    letter-spacing: 0.04rem;
+}
+
+body {
+    font-family: var(--body-font);
+}
